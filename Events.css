@@ -1,0 +1,66 @@
+.eventsTop{
+    display:flex;
+}
+.eventsright{
+    display:flex;
+    margin-top: 40px;
+    margin-left: 1400px;
+}
+#upEvents{
+    border-radius: 70px;
+    width: 200px;
+    margin-left: -300px;
+    background-color:rgb(38, 192, 38);
+}
+input{
+    margin-left: 80px;
+    background-color: rgb(38, 192, 38);
+    width:160px;
+    height:60px;
+}
+#hEvents{
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.row1{
+    display:flex;
+    gap: 100px;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+#cow{
+    border-radius: 34px;
+}
+.dates{
+    /* position: fixed; */
+    height:70px;
+    margin-left: 150px;
+    margin-top: -182px;
+}
+#eventsText{
+margin-top: 140px;
+}
+#date{
+font-weight: bolder;
+font-size: 23px;
+font-family:Arial, Helvetica, sans-serif;
+margin-left: 1px;
+margin-top: -59px;
+}
+#circle{
+    width: 100px;
+    background-color: white;
+    height: 90px;
+}
+.row2{
+    display:flex;
+    gap: 100px;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.row3{
+    display:flex;
+    gap: 100px;
+    justify-content: space-around;
+    margin-top: 30px;
+}
