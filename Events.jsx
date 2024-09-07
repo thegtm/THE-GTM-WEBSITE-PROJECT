@@ -1,104 +1,136 @@
 import React from "react";
-import "./Events.css";
+import "./Event.css";
 import Navbar from "../sharedComponents/NAVBAR/Navbar";
-import Footer from "../sharedComponents/FOOTER/Footer"
-import Search from "../images/search-interface-symbol.png";
-import Cow from "../images/spinach.jpg";
-import Circle from "../images/circle7.png";
-function Events() {
+import Footer from "../sharedComponents/FOOTER/Footer";
+import Star from "../images/star.jpg";
+import dropdownIcon from "../images/dropdownIcon.png";
+import searchIcon from "../images/search-interface-symbol.png";
+import Cow from "../images/cow.jpg";
+function Event() {
+    const events1=()=>{
+        window.location.href= "/events"
+    }
   return (
     <>
       <Navbar></Navbar>
-      <div className="eventsTop">
-        <h1 id="hEvents">Events</h1>
-        <div className="eventsright">
-          <button id="upEvents">Upcoming Events</button>
-          <input type="text" value="Search an Event..." />
+      <div className="eventsPage">
+        <div className="topEvent">
+          <img src={Star} alt="" id="star" />
+          <h1 id="events">Events</h1>
         </div>
-      </div>
-      <div className="all">
-        <div className="row1">
-          <div className="1">
-            <img src={Cow} alt="" id="cow" />
-            <div className="dates">
-              <img src={Circle} alt="" id="circle" />
-              <p id="date">Aug 31</p>
+        <div className="midEvent">
+          <button id="upComing"> Upcoming</button>
+          <img src={dropdownIcon} alt="" id="dropIcon" />
+          <input type="text" value="Search an Event....." id="search" />
+          <img src={searchIcon} alt="" id="searchIcon" />
+        </div>
+        <div className="downEvent">
+          <div className="row1">
+            <div className="pic1">
+              <img src={Cow} alt="" id="cowImage" />
+              <h2 id="conference">Conference for RegenAG Experts</h2>
+              <h3 id="day">Sunday,September 1st, 2024</h3>
+              <div className="pic11">
+                <p id="pax"> (50 Pax)</p>
+                <button id="rsvp">RSVP</button>
+                <p id="price">$ 0.5</p>
+              </div>
             </div>
-            <h2 id="eventsText">Conference for RegennAG Experts</h2>
+            <div className="pic1">
+              <img src={Cow} alt="" id="cowImage" />
+              <h2 id="conference">Conference for RegenAG Experts</h2>
+              <h3 id="day">Sunday,September 1st, 2024</h3>
+              <div className="pic11">
+                <p id="pax"> (50 Pax)</p>
+                <button id="rsvp">RSVP</button>
+                <p id="price">$ 0.5</p>
+              </div>
+            </div>
+            <div className="pic1">
+              <img src={Cow} alt="" id="cowImage" />
+              <h2 id="conference">Conference for RegenAG Experts</h2>
+              <h3 id="day">Sunday,September 1st, 2024</h3>
+              <div className="pic11">
+                <p id="pax"> (50 Pax)</p>
+                <button id="rsvp">RSVP</button>
+                <p id="price">$ 0.5</p>
+              </div>
+            </div>
           </div>
-          <div className="2">
-            <img src={Cow} alt="" id="cow" />
-            <div className="dates">
-              <img src={Circle} alt="" id="circle" />
-              <p id="date">Aug 31</p>
+          <div className="row2">
+          <div className="pic1">
+              <img src={Cow} alt="" id="cowImage" />
+              <h2 id="conference">Conference for RegenAG Experts</h2>
+              <h3 id="day">Sunday,September 1st, 2024</h3>
+              <div className="pic11">
+                <p id="pax"> (50 Pax)</p>
+                <button id="rsvp">RSVP</button>
+                <p id="price">$ 0.5</p>
+              </div>
             </div>
-            <h2 id="eventsText">Conference for RegennAG Experts</h2>
+            <div className="pic1">
+              <img src={Cow} alt="" id="cowImage" />
+              <h2 id="conference">Conference for RegenAG Experts</h2>
+              <h3 id="day">Sunday,September 1st, 2024</h3>
+              <div className="pic11">
+                <p id="pax"> (50 Pax)</p>
+                <button id="rsvp">RSVP</button>
+                <p id="price">$ 0.5</p>
+              </div>
+            </div>
+            <div className="pic1">
+              <img src={Cow} alt="" id="cowImage" />
+              <h2 id="conference">Conference for RegenAG Experts</h2>
+              <h3 id="day">Sunday,September 1st, 2024</h3>
+              <div className="pic11">
+                <p id="pax"> (50 Pax)</p>
+                <button id="rsvp">RSVP</button>
+                <p id="price">$ 0.5</p>
+              </div>
+            </div>
           </div>
-          <div className="3">
-            <img src={Cow} alt="" id="cow" />
-            <div className="dates">
-              <img src={Circle} alt="" id="circle" />
-              <p id="date">Aug 31</p>
+          <div className="row3">
+          <div className="pic1">
+              <img src={Cow} alt="" id="cowImage" />
+              <h2 id="conference">Conference for RegenAG Experts</h2>
+              <h3 id="day">Sunday,September 1st, 2024</h3>
+              <div className="pic11">
+                <p id="pax"> (50 Pax)</p>
+                <button id="rsvp">RSVP</button>
+                <p id="price">$ 0.5</p>
+              </div>
             </div>
-            <h2 id="eventsText">Conference for RegennAG Experts</h2>
+            <div className="pic1">
+              <img src={Cow} alt="" id="cowImage" />
+              <h2 id="conference">Conference for RegenAG Experts</h2>
+              <h3 id="day">Sunday,September 1st, 2024</h3>
+              <div className="pic11">
+                <p id="pax"> (50 Pax)</p>
+                <button id="rsvp">RSVP</button>
+                <p id="price">$ 0.5</p>
+              </div>
+            </div>
+            <div className="pic1">
+              <img src={Cow} alt="" id="cowImage" />
+              <h2 id="conference">Conference for RegenAG Experts</h2>
+              <h3 id="day">Sunday,September 1st, 2024</h3>
+              <div className="pic11">
+                <p id="pax"> (50 Pax)</p>
+                <button id="rsvp">RSVP</button>
+                <p id="price">$ 0.5</p>
+              </div>
+            </div>
           </div>
         </div>
-        <div className="row2">
-        <div className="1">
-            <img src={Cow} alt="" id="cow" />
-            <div className="dates">
-              <img src={Circle} alt="" id="circle" />
-              <p id="date">Aug 31</p>
-            </div>
-            <h2 id="eventsText">Conference for RegennAG Experts</h2>
-          </div>
-          <div className="2">
-            <img src={Cow} alt="" id="cow" />
-            <div className="dates">
-              <img src={Circle} alt="" id="circle" />
-              <p id="date">Aug 31</p>
-            </div>
-            <h2 id="eventsText">Conference for RegennAG Experts</h2>
-          </div>
-          <div className="3">
-            <img src={Cow} alt="" id="cow" />
-            <div className="dates">
-              <img src={Circle} alt="" id="circle" />
-              <p id="date">Aug 31</p>
-            </div>
-            <h2 id="eventsText">Conference for RegennAG Experts</h2>
-          </div>
+        <div className="more">
+            <button id = "moreButtons" onClick = {events1}>1</button>
+            <button id = "moreButtons" >2</button>
+            <button id = "moreButtons">3</button>
         </div>
-        <div className="row3">
-          <div className="1">
-            <img src={Cow} alt="" id="cow" />
-            <div className="dates">
-              <img src={Circle} alt="" id="circle" />
-              <p id="date">Aug 31</p>
-            </div>
-            <h2 id="eventsText">Conference for RegennAG Experts</h2>
-          </div>
-          <div className="2">
-            <img src={Cow} alt="" id="cow" />
-            <div className="dates">
-              <img src={Circle} alt="" id="circle" />
-              <p id="date">Aug 31</p>
-            </div>
-            <h2 id="eventsText">Conference for RegennAG Experts</h2>
-          </div>
-          <div className="3">
-            <img src={Cow} alt="" id="cow" />
-            <div className="dates">
-              <img src={Circle} alt="" id="circle" />
-              <p id="date">Aug 31</p>
-            </div>
-            <h2 id="eventsText">Conference for RegennAG Experts</h2>
-          </div>
-        </div>
-      </div>
+      </div> <br />
       <Footer></Footer>
     </>
   );
 }
 
-export default Events;
+export default Event;
