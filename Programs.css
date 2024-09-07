@@ -1,0 +1,76 @@
+#star{
+    width: 1800px;
+    height: 500px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+#events{
+    color:black;
+    font-size: 70px;
+    text-align: center;
+    margin-top: -300px;
+    color:white;
+}
+.boxes{
+    display:flex;
+    width: 1600px;
+    margin-left: 200px;
+    margin-top: 300px;
+    width: 1300px;
+    gap: 100px;
+}
+.garden{
+    display:flex;
+    flex-direction: column;
+    width: 33%;
+    margin-left: 50px;
+}
+#gardenimage{
+height: 400px;
+width: 400px;
+border-radius: 30px;
+}
+#gardenread{
+    color:rgb(38, 192, 38);
+    background-color: rgb(26, 24, 24);
+    font-size: 25px;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+#gardenread2{
+    color:rgb(38, 192, 38);
+    background-color:rgb(26, 24, 24);
+    font-size: 25px;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+#gardenread3{
+    color:rgb(38, 192, 38);
+    background-color: rgb(26, 24, 24);
+    font-size: 25px;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.mission{
+    border: 2px solid black;
+    background-color: rgb(27, 23, 23);
+    color:white;
+}
+.boxes2{
+    display:flex;
+    width: 1600px;
+    margin-left: 200px;
+    margin-top: 100px;
+    width: 1300px;
+    gap: 100px;
+}
+#moreButtons{
+    width: 40px;
+    height:40px;  
+  }
+  #moreButtons:hover{
+      background-color: green;
+  }
