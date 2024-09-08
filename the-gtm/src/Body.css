@@ -1,0 +1,198 @@
+.body-container {
+    background-image: url('./images/green.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.body {
+    color: white;
+    max-width: 800px;
+    padding: 20px;
+    position: relative;
+    padding-top: 100px; 
+}
+
+.icon-circle {
+    position: absolute;
+    top: -3px; 
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+    font-size: 36px;
+    color: green;
+}
+
+.body h1 {
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+
+.body p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+.body-button {
+    background-color: #00a400;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+}
+
+.body-button:hover {
+    background-color: #218838;
+}
+
+.middle1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 90px;
+    background-color: #ffffff;
+}
+
+.text {
+    max-width: 50%;
+}
+
+#about {
+    font-size: 25px;
+    color: #000;
+    font-weight: bold;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+#future {
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.text p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+#lmore {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#lmore:hover {
+    background-color: #333;
+}
+
+.tomatoes {
+    position: relative;
+    max-width: 40%;
+}
+
+.tomatoes img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    clip-path: polygon(
+        50% 0%,
+        90% 10%,
+        100% 40%,
+        90% 70%,
+        50% 100%,
+        10% 70%,
+        0% 40%,
+        10% 10%
+    );
+}
+
+@media (max-width: 768px) {
+    .middle1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .tomatoes img {
+        margin-top: 20px;
+    }
+}
+
+.rose {
+    background-image: url('./images/rose.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100px; /* Adjust the height as needed */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+#rosetext {
+    font-size: 2rem;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+    .middle1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .tomatoes img {
+        margin-top: 20px;
+    }
+
+    .rose {
+        height: 300px; /* Adjust the height for smaller screens */
+    }
+
+    #rosetext {
+        font-size: 1.5rem;
+    }
+}
