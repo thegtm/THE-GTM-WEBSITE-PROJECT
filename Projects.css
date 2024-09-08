@@ -1,0 +1,45 @@
+#currprojects {
+    color:whitesmoke;
+}
+
+.projects-container {
+    background-image: url('./images/bg03.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.projects {
+    color: white;
+    max-width: 800px;
+    padding: 20px;
+    position: relative;
+    padding-top: 40px; 
+}
+
+.pagination {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.pagination button {
+    background-color: white;
+    border: 1px solid #1a6e39;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+}
+
+.pagination button:hover {
+    background-color: #1a6e39;
+    color: rgb(247, 244, 244);
+}
