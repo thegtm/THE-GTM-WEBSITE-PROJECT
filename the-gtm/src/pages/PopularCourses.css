@@ -1,0 +1,139 @@
+.Courses-header {
+    background-image: url('../images/courses.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#Courses {
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.header-description {
+    color: rgb(222, 219, 219);
+    font-style: normal;
+    max-width: 900px;
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    padding-left: 230px;
+}
+
+.courses-section h2 {
+    font-size: 2rem;
+    padding: 20px;
+    color: rgb(47, 240, 40);
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+.courses-section p {
+    color: rgb(6, 5, 5);
+    margin-bottom: 20px;
+}
+
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.pagination button {
+    background-color: white;
+    border: 1px solid #1a6e39;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+}
+
+.pagination button:hover {
+    background-color: #1a6e39;
+    color: rgb(247, 244, 244);
+}
+
+@media (max-width: 768px) {
+    .Courses-header {
+        height: 40vh;
+    }
+
+    #Courses {
+        font-size: 35px;
+    }
+
+    .header-description {
+        padding-left: 0;
+        max-width: 100%;
+        font-size: 16px;
+    }
+
+    .courses-section h2 {
+        font-size: 1.5rem;
+        padding: 10px;
+    }
+
+    .courses-section p {
+        font-size: 14px;
+    }
+
+    .course-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        padding: 10px;
+    }
+
+    .pagination button {
+        padding: 8px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Courses-header {
+        height: 30vh;
+    }
+
+    #Courses {
+        font-size: 25px;
+    }
+
+    .header-description {
+        font-size: 14px;
+    }
+
+    .courses-section h2 {
+        font-size: 1.2rem;
+        padding: 5px;
+    }
+
+    .courses-section p {
+        font-size: 12px;
+    }
+
+    .course-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        padding: 5px;
+    }
+
+    .pagination button {
+        padding: 6px;
+        font-size: 12px;
+    }
+}

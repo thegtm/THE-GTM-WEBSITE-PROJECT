@@ -1,0 +1,129 @@
+.Events-header {
+    background-image: url('../images/program.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #Events {
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    font-weight: bolder;
+  }
+  
+  .downEvent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
+  
+  @media (max-width: 768px) {
+    .downEvent {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  #cowImage {
+    border-radius: 0px;
+  }
+  
+  .pic1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    flex: 1;
+    max-width: 300px;
+  }
+  
+  .pic1:hover {
+    transform: translateY(-10px);
+  }
+  
+  #conference {
+    color: rgb(64, 213, 15);
+    font-size: 23px;
+    text-align: center;
+  }
+  
+  #day {
+    font-size: 18px;
+    margin-top: -20px;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  #pax {
+    color: rgb(234, 197, 12);
+    font-size: 23px;
+    margin-left: 10px;
+  }
+  
+  .pic11 {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #rsvp {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    height: 37px;
+    margin-top: 20px;
+  }
+  
+  #rsvp:hover {
+    background-color: #1a6e39;
+  }
+  
+  #price {
+    font-size: 23px;
+    color: rgb(240, 196, 0);
+    margin-bottom: 20px;
+    margin-right: 15px;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .pagination button {
+    background-color: white;
+    border: 1px solid #1a6e39;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+  }
+  
+  .pagination button:hover {
+    background-color: #1a6e39;
+    color: rgb(247, 244, 244);
+  }
+  
